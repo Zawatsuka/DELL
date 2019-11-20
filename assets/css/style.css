@@ -1,0 +1,30 @@
+.bloc {
+    background-color: #007DB8;
+    color: white;
+    height: 30px;
+    text-align: center;
+}
+.bloc:hover {
+    background-color: rgb(6, 80, 114);
+    cursor: grab;
+}
+.bloc.active {
+    background-color: white;
+    color: black;
+}
+h2{
+    color: #007db8;
+    opacity: 100%;
+}
+.bloc2{
+    position: relative;
+    top: 10%;
+    width: 30%;
+    height: 35%;
+    opacity: 20%;
+    background-color: lawngreen;
+}
+h2{
+    color: #007db8;
+    opacity: 100%;
+}
