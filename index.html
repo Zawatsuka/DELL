@@ -11,34 +11,238 @@
 </head>
 
 <body>
+  <header class="navBarTop">
+    <!-- top du site- barre de recherche-menu et icônes. -->
+    <div class="row">
+      <form class="form-inline col-6 my-2 sm-3">
+        <img src="assets/IMG/delllogo.jpg" alt="logoDell" />
+        <div class="input-group mb-3">
+          <input type="search" class="form-control" placeholder="Comment pouvons-nous vous aider ?"
+            aria-label="searchBar" aria-describedby="basic-addon2" />
+          <div class="input-group-append">
+            <button class="btn btn-outline-secondary text-white border-white" type="button">Rechercher</button>
+          </div>
+      </form>
+    </div>
+    <!-- icône de connexion -->
+    <div class="login rowMega my-2 sm-3">
+      <div class="row2 col-2">
+        <div id="userImage">
+          <img src="assets/IMG/userImg.jpg" alt="userIcon"></div>
+        <p class="loginText text-white">Se connecter</p>
+      </div>
+    </div>
+    <!-- icône caddie -->
+    <div class="shopCart rowMega my-2 sm-3">
+      <div class="row3 col-2">
+        <div id="cartImage">
+          <img src="assets/IMG/shoppingCart.jpg" alt="shoppingCart" /></div>
+        <p class="cartText text-white">Panier</p>
+      </div>
+    </div>
+    <!-- section selecteur de Pays -->
+    <div class="flagSection my-2 sm-3">
+      <ol>
+        <li class="nav-item dropdown">
+          <img src="assets/IMG/france.png" alt="franceFlag">
+          <a class="nav-link dropdown-toggle text-white" id="dropdown09" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false"><span class="flag-icon flag-icon-us"> </span> FRA</a>
+          <div class="dropdown-menu" aria-labelledby="dropdown09">
+            <a class="dropdown-item" href="#ru"><span class="flag-icon flag-icon-af"></span>Afghanistan</a>
+            <a class="dropdown-item" href="#fr"><span class="flag-icon flag-icon-afs"></span>Afrique du sud</a>
+            <a class="dropdown-item" href="#it"><span class="flag-icon flag-icon-al"></span>Albanie</a>
+            <a class="dropdown-item" href="#ru"><span class="flag-icon flag-icon-alg"></span>Algérie</a>
+            <a class="dropdown-item" href="#ru"><span class="flag-icon flag-icon-all"></span>Allemagne</a>
+            <a class="dropdown-item" href="#ru"><span class="flag-icon flag-icon-etc"></span>Etc</a>
+          </div>
+        </li>
+      </ol>
+    </div>
+    <!-- section navbar -->
+    <div class="container" id="megaMenu">
+      <nav class="menu col-12">
+        <!-- menu déroulant. section du menu produit -->
+        <ol>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarProduct" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Produits
+            </a>
+            <div class="dropdown-menu text-primary" aria-labelledby="navbarProduct">
+              <a class="dropdown-item text-primary" href="#1">Ordinateurs portables</a>
+              <a class="dropdown-item text-primary" href="#2">Ordinateurs de bureau et tout en un</a>
+              <a class="dropdown-item text-primary" href="#3">Tablettes et ordinateurs <br /> portables 2 en 2</a>
+              <a class="dropdown-item text-primary" href="#4">Gaming</a>
+              <a class="dropdown-item text-primary"
+                href="https://www.dell.com/fr-fr/work/shop/scc/sc/workstations?~ck=mn">Stations de travail</a>
+              <a class="dropdown-item text-primary"
+                href="https://www.dell.com/fr-fr/work/shop/scc/sc/cloud-client?~ck=mn">Clients légers</a>
+              <a class="dropdown-item text-primary" href="#5">Serveurs et stockage</a>
+              <a class="dropdown-item text-primary" href="#6">Gestion de réseau</a>
+              <a class="dropdown-item text-primary" href="#7">Écrans</a>
+              <a class="dropdown-item text-primary" href="#8">Encre et toner</a>
+              <a class="dropdown-item text-primary"
+                href="https://www.dell.com/fr-fr/work/shop/ecat/enterprise-products?~ck=mn">Matériel électronique,<br />
+                logiciels et accessoires</a>
+              <a class="dropdown-item text-primary"
+                href="https://www.dell.com/fr-fr/work/shop/scc/sc/gateways-embedded-pcs?~ck=mn">Passerelles et
+                informatique intégrée</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarSoluce" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Solutions
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarSoluce">
+              <a class="dropdown-item text-primary"
+                href="https://www.dell.com/fr-fr/work/learn/large-enterprise-solutions?~ck=mn">Afficher toutes les
+                solutions</a>
+              <a class="dropdown-item text-primary" href="#">Secteurs</a>
+              <a class="dropdown-item text-primary" href="#">Ressources pour les <br />PME et microentreprises</a>
+              <a class="dropdown-item text-primary"
+                href="https://www.dell.com/fr-fr/work/learn/business-intelligence-big-data?~ck=mn">Big Data</a>
+              <a class="dropdown-item text-primary"
+                href="https://www.dellemc.com/fr-fr/cloud/hybrid-cloud-computing/index.htm">Cloud</a>
+              <a class="dropdown-item text-primary" href="#">Datacenter</a>
+              <a class="dropdown-item text-primary"
+                href="https://www.dellemc.com/fr-fr/solutions/vdi/index-it.htm">Virtualisation des postes de <br />
+                travail</a>
+              <a class="dropdown-item text-primary"
+                href="https://www.dellemc.com/fr-fr/solutions/internet-of-things/index.htm#">Internet of Things</a>
+              <a class="dropdown-item text-primary"
+                href="https://www.dellemc.com/fr-fr/latitude/index.htm#">Mobilité</a>
+              <a class="dropdown-item text-primary"
+                href="https://www.dellemc.com/fr-fr/services/pc-as-a-service.htm#scroll=off&accordion0">Pc as a Service
+                (PCaaS)</a>
+              <a class="dropdown-item text-primary"
+                href="https://www.dellemc.com/fr-fr/endpointsecurity/data-security.htm#">Sécurtié</a>
+              <a class="dropdown-item text-primary" href="#">Formation et certification</a>
+              <a class="dropdown-item text-primary"
+                href="https://education.dellemc.com/content/emc/fr-fr/home.html">Solutions Dell EMC</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarServices" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Services
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarServices">
+              <a class="dropdown-item text-primary" href="https://www.dellemc.com/fr-fr/services/index.htm">Afficher
+                toutes les services</a>
+              <a class="dropdown-item text-primary"
+                href="https://www.dell.com/learn/fr/fr/frdhs1/consumer-services">Services de support pour les <br />
+                particuliers</a>
+              <a class="dropdown-item text-primary"
+                href="https://www.dell.com/fr-fr/work/shop/sbservice/ab/sbservice?~ck=mn">Services destinés aux
+                petites<br />entreprises</a>
+              <a class="dropdown-item text-primary"
+                href="https://www.dellemc.com/fr-fr/services/support-services/index.htm">Services de support pour
+                les<br />professionnels</a>
+              <a class="dropdown-item text-primary"
+                href="https://www.dellemc.com/fr-fr/services/consulting-services/index.htm">Conseils</a>
+              <a class="dropdown-item text-primary"
+                href="https://www.dell.com/fr-fr/work/learn/by-service-type-deployment?~ck=mn">Services de
+                déploiement</a>
+              <a class="dropdown-item text-primary"
+                href="https://www.dell.com/fr-fr/work/shop/dell-financial-services-emea/cp/dell-financial-services-emea">Financement
+                et location</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarSupport" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Support
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarSupport">
+              <a class="dropdown-item text-primary"
+                href="https://www.dell.com/support/home/fr/fr/frbsdt1?~ck=mn">Afficher toutes les services
+                d'assistance</a>
+              <a class="dropdown-item text-primary"
+                href="https://www.dell.com/support/home/fr/fr/frbsdt1?app=products&~ck=mn">Support produits</a>
+              <a class="dropdown-item text-primary"
+                href="https://www.dell.com/support/home/fr/fr/frbsdt1?app=knowledgebase&~ck=mn">Base de
+                connaissances</a>
+              <a class="dropdown-item text-primary"
+                href="https://www.dell.com/support/home/fr/fr/frbsdt1?app=warranty&~ck=mn">Garanties et contrats</a>
+              <a class="dropdown-item text-primary"
+                href="https://www.dell.com/support/Contents/fr/fr/frbsdt1/category/eSupport-Order-support?~ck=mn">Demande
+                de service</a>
+              <a class="dropdown-item text-primary"
+                href="https://www.dell.com/support/Contents/fr/fr/frbsdt1/category/eSupport-Order-support?~ck=mn">Support
+                commandes</a>
+              <a class="dropdown-item text-primary"
+                href="https://www.dell.com/support/contents/fr/fr/frbsdt1/category/Contact-Information?~ck=mn">Contactez-nous</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarOffer" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Offres
+            </a>
+            <div class="dropdown-menu text-primary" aria-labelledby="navbarOffer">
+              <a class="dropdown-item text-primary" href="#1">Offres sur les<br />ordinateurs portables</a>
+              <a class="dropdown-item text-primary" href="#">Offres sur les<br />ordinateurs de bureau</a>
+              <a class="dropdown-item text-primary" href="#">Meilleures ventes Alienware</a>
+              <a class="dropdown-item text-primary" href="#">Meilleures ventes Dell Gaming</a>
+              <a class="dropdown-item text-primary" href="#">Offres sur les stations<br />de travail</a>
+              <a class="dropdown-item text-primary" href="#">Offres sur les serveurs</a>
+              <a class="dropdown-item text-primary" href="#">Offres sur les appareils<br />électroniques et
+                les<br />accessoires</a>
+              <a class="dropdown-item text-primary" href="#">Offres sur les écrans</a>
+              <a class="dropdown-item text-primary" href="#">Dell cinéma</a>
+              <a class="dropdown-item text-primary" href="#">Dell Mobile Connect</a>
+              <a class="dropdown-item text-primary" href="#">Réductions pour les étudiants, enseignants
+                et<br />employés</a>
+            </div>
+          </li>
+        </ol>
+    </div>
+  </header>
+  <!-- taff audrey -->
   <div class="row">
     <div class="col-md-12">
-        <div id="clic" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                  <img src="assets/IMG/carousel1.jpg" class="d-block w-100" alt="TENDANCE">
-              </div>
-              <div class="carousel-item">
-                <img src="assets/IMG/carousel2.jpg" class="d-block w-100" alt="ECRANS">
-                <div class="carousel-caption">
-
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="assets/IMG/carousel3.jpg" class="d-block w-100" alt="black friday">
-                <div class="carousel-caption">
-
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="assets/IMG/carousel4.jpg" class="d-block w-100" alt="achats">
-                <div class="carousel-caption">
-
-                </div>
-              </div>
+      <div id="clic" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/IMG/carousel1.jpg" class="d-block w-100" alt="TENDANCE">
+            <div class="carousel-caption bloc4">
+              <h2>LA TENDANCE DU MOMENT : #SHOPEARLY*</h2>
+              <p>Beneficiez d'offres exclusive en avant première.</p>
+              <a
+                href="https://www.dell.com/fr-fr/work/shop/deals/special-deals?ref=p13n_hpr_bsd_hero_1_cta_1&dgc=IR&cid=SB-BF&lid=genhp1_P13N_SB"><input
+                  type="button" value="PC" class="bouton"></a>
+              <a href="https://www.dell.com/fr-fr/work/shop/computer-accessories-deals/ar/8228"><input type="button"
+                  value="Ecran" class="bouton"></a>
             </div>
           </div>
+          <div class="carousel-item">
+            <img src="assets/IMG/carousel2.jpg" class="d-block w-100" alt="ECRANS">
+            <div class="carousel-caption bloc4">
+              <h2>ECRANS ET ACCESSOIRES</h2>
+              <p>Economisez jusqu'à 50% sur une selection d'ecran et d'accessoires</p>
+              <a
+                href="https://www.dell.com/fr-fr/work/shop/computer-accessories-deals/ar/8228?ref=p13n_hpr_bsd_hero_2_cta_1&dgc=IR&cid=SB-BF&lid=genhp2_P13N_SB"><input
+                  type="button" value="Voir les Offres" class="bouton" /></a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/IMG/carousel3.jpg" class="d-block w-100" alt="black friday">
+            <div class="carousel-caption bloc4">
+              <h2>NOTRE VENTE BLACK FRIDAY EST DEJA LA !</h2>
+              <p>Jusqu'a 20% de reduction sur votre serveur.</p>
+              <a
+                href="https://www.dell.com/fr-fr/work/shop/deals/special-deals?ref=p13n_hpr_bsd_hero_1_cta_1&dgc=IR&cid=SB-BF&lid=genhp1_P13N_SB"><input
+                  type="button" value="Voir les Offres serveurs" class="bouton" /></a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/IMG/carousel4.jpg" class="d-block w-100" alt="achats">
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
   </div>
   <div class="row">
     <div class="col-md-3 bloc" data-target="#clic" data-slide-to="0">LA TENDANCE DU MOMENT : #SHOPEARLY*</div>
@@ -46,7 +250,115 @@
     <div class="col-md-3 bloc" data-target="#clic" data-slide-to="2">NOTRE VENTE BLACK FRIDAY EST DEJA LA</div>
     <div class="col-md-3 bloc" data-target="#clic" data-slide-to="3">Que désirez-vous acheter aujourd'hui ?</div>
   </div>
-    
+  <!-- taff emilie -->
+  <!-- image cliquable partie1 -->
+  <div class="container">
+    <!-- le lead paragraphe mis en évidence par rapport à un autre -->
+    <h2 class="lead text-center font-weight-bold">Parcourir les produits les plus prisés</h2>
+  </div>
+  <div class="container">
+    <div class="row">
+      <!-- row=ligne  col=colonne-->
+      <div class="col-12">
+        <img src="assets/IMG/1.PNG" class="rounded float-left m-3" alt="c'est un ordinateur">
+        <img src="assets/IMG/2.PNG" class="rounded float-left m-3" alt="C'est un ordinateur de bureau">
+        <img src="assets/IMG/3.PNG" class="rounded float-left m-3" alt="Des stations de travail">
+        <img src="assets/IMG/4.PNG" class="rounded float-left m-3" alt="Des écrans d'ordinateur">
+        <img src="assets/IMG/5.JPG" class="rounded float-left m-3" alt="Des accessoires pour pc">
+        <img src="assets/IMG/6.PNG" class="rounded float-left m-3" alt="c'est un serveur">
+      </div>
+    </div>
+  </div>
+  <div class="container text-center">
+    <div class="row">
+      <!-- row=ligne  col=colonne-->
+      <div class="col-12">
+        <a href="#" class="rounded float-left ml-5 mr-5">Ordinateurs<br />portables</a>
+        <a href="#" class="rounded float-left ml-5 mr-5">Ordinateurs de<br />bureau</a>
+        <a href="#" class="rounded float-left ml-2 mr-5">Stations de travail</a>
+        <a href="#" class="rounded float-left ml-5 mr-5">Ecrans</a>
+        <a href="#" class="rounded float-left ml-5 mr-5">Accessoires pour<br />PC</a>
+        <a href="#" class="rounded float-left ml-5 mr-5">Serveurs</a>
+      </div>
+    </div>
+  </div>
+  <!-- image cliquable partie 2  -->
+  <div class="container">
+    <h2 class="lead text-center font-weight-bold my-4">Explorer la section Electronique et accessoires</h2>
+  </div>
+  <div class="container" id="position">
+    <div class="row">
+      <!-- row=ligne  col=colonne-->
+      <div class="col 12" id="pictures">
+        <img src="assets/IMG/7b.JPG" class="rounded float-left" alt="photographie des produits gaming">
+        <img src="assets/IMG/8.PNG" class="rounded float-right mr-4" alt="photographie de produits professionnels">
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <!-- row=ligne  col=colonne-->
+      <div class="col-12">
+        <a class="btn btn-primary" href="https://www.dell.com/fr-fr/shop/gaming-and-games/cp/game"
+          role="button">Afficher les produits de gaming</a>
+        <a class="btn btn-primary float-right"
+          href="https://www.dell.com/fr-fr/work/shop/accessories?dgc=IR&cid=accessories&lid=e2&ref=bnn"
+          role="button">Afficher les produits professionnels</a>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- taff groupe -->
+  <div class="container">
+    <div class="row p-5">
+      <div class="card" style="width: 32rem;">
+        <img src="assets/IMG/1.1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <a href="https://www.dell.com/fr-fr/shop/catalogue/ab/fr-ecatalog?dgc=IR&cid=hp-e-catalog&lid=genhp&ref=p13n_hpr_cold_hybrid_middle_1|hp-e-catalog"
+            class="card-text"> DESORMAIS DISPONIBLE: achetez nos produits facilement via notre catalogue
+            electronique</a>
+        </div>
+      </div>
+      <div class="card" style="width: 32rem;">
+        <img src="assets/IMG/1.2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <a href="https://www.dell.com/fr-fr/work/shop/small-business-partners/ab/small-business-partners?ref=p13n_hpr_cold_hybrid_middle_2"
+            class="card-text"> Technologie.Conseil.Partenariat. Votre page pour les PME</a>
+        </div>
+      </div>
+    </div>
+    <div class="row  m-4">
+      <div class="card col-3" style="width: 32rem;">
+        <img src="assets/IMG/2.1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <a href="https://www.dell.com/support/home/fr/fr/frdhs1/" class="card-text"> Support Dell : exécutez des
+            diagnostics, téléchargez des pilotes et plus encore.</a>
+        </div>
+      </div>
+      <div class="card col-3" style="width: 32rem;">
+        <img src="assets/IMG/2.2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <a href="https://www.dell.com/learn/fr/fr/frcorp1/about-dell" class="card-text"> Restez informés sur Dell
+            EMC</a>
+        </div>
+      </div>
+      <div class="card col-3" style="width: 32rem;">
+        <img src="assets/IMG/2.3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <a href="https://www.dell.com/fr-fr/shop/black-friday-ordinateurs/cp/black-friday-ordinateurs"
+            class="card-text"> Enregistrez-vous pour recevoir les offres du Black Friday</a>
+        </div>
+      </div>
+      <div class="card col-3" style="width: 32rem;">
+        <img src="assets/IMG/2.4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <a href="https://www.dell.com/fr-fr/work/learn/prodeploy-plus-client-systems" class="card-text"> ProDeploy
+            Plus pour les systèmes clients. Déploiement jusqu'à 35% plus rapide.</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
   </script>
